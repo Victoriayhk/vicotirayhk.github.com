@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Scrapy官方教程
+title: Scrapy教程
 category : translation
 tagline: 
 tags : [python, scrapy]

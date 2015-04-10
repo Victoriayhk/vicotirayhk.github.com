@@ -21,6 +21,10 @@
     <!-- Custom styles -->
     <link href="{{ ASSET_PATH }}/css/style.css?body=1" rel="stylesheet" type="text/css" media="all">
 
+    <!-- Google code prettify -->
+    <link href="{{ ASSET_PATH }}/google-code-prettify/prettify.css" rel="stylesheet" type="text/css" media="all">
+    <script type="text/javascript" src="{{ ASSET_PATH }}/google-code-prettify/prettify.js"></script>
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -42,7 +46,7 @@
 
   </head>
 
-  <body>
+  <body onload="prettyPrint()">
     <div id="wrap">
       <nav class="navbar navbar-default" role="navigation">
         <!-- Brand and toggle get grouped for better mobile display -->
@@ -94,5 +98,11 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script src="{{ ASSET_PATH }}/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+$(window).load(function(){
+     $("pre").addClass("prettyprint");
+     prettyPrint();
+})
+    </script>
   </body>
 </html>

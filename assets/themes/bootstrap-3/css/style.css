@@ -17,8 +17,19 @@
 h1, h2, h3, h4 {
   color: #4A708B;
 }
+code {
+  margin-left: 0.2em;
+  margin-right: 0.2em;
+  color: #36648B;
+  background-color: transparent;
+  border: 1px solid #CCC;
+}
+.container {
+  width: 50%;
+  margin-left: 25%;
+}
 .content {
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 #footer {
   color: #BBB;

@@ -24,6 +24,9 @@ code {
   background-color: transparent;
   border: 1px solid #CCC;
 }
+pre code {
+  border: 0;
+}
 .container {
   width: 50%;
   margin-left: 25%;

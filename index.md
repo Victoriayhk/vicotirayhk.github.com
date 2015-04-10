@@ -12,9 +12,3 @@ tagline: to seize everything you ever wanted
 + 富文本编辑器(毕设): JavaScript, Markdown-based
 + Python-Scrapy: 业余作业
 + 人工智能: 这是研究生研究的大领域, 细节未知, 欢迎指导提学习建议
-
-## 关于本站
-
-+ 2015-04-08 创建本站
-+ 代码托管: https://github.com/Victoriayhk/victoriayhk.github.io
-+ 域名huikangyi.org期限只有一年(2015.4~2015.4), 续费暂时不确定, 请通过victoriayhk.github.io访问

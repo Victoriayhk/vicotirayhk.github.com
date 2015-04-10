@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Scrapy Doc - Tutorial
+title: Scrapy教程
 category : translation
 tagline: 
 tags : [python, scrapy]
@@ -53,7 +53,6 @@ tutorial/
 item通过创建`scrapy.item`类来申明, 其属性则为`scrapy.Field`类型, 就像ORM(别担心对ORM不清楚, 后面会有对ORM的解释).
 
 我们以模块化item开始我们的项目, item将用来保存来自dmoz.org的数据. 假设我们想抓取该网站的名字, url, 以及描述, 我们针对这三项来创建属性. 要做这项工作, 我们要编辑`items.py`文件, 我们的项目类大概如下:
-
 ```
 import scrapy
 

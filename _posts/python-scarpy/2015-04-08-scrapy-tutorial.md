@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Scrapy Doc - Turotial
+title: Scrapy Doc - 开篇教程
 category : translation
 tagline: 
 tags : [python, scrapy]
@@ -80,6 +80,7 @@ spider类必须是`scrapy.Spider`的子类, 该子类必须包含最基本的三
     该方法负责: 解析response的数据, 抽象出爬虫数据(Item对象), 以及解析出更多的后续工作中要用到的URL(Request对象).
 
 以下为我们的第一个spider, 将代码保存到`tutorial/spiders`文件夹下的`dmoz_spider.py`文件中:
+
 ```
 import scrapy
 

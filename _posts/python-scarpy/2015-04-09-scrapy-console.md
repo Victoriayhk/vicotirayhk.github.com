@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Scrapy Doc - Command line tool
+title: Scrapy Doc - 命令行工具
 category : translation
 tagline: 
 tags : [python, scrapy]
 ---
 
-## 命名行工具
+## 命令行工具
 
 当前的版本是0.10, 这里我们也称它为`Scrapy Tool`. Scrapy tool提供了有不同目的几种命令, 每一个命令的参数都有不同.
 

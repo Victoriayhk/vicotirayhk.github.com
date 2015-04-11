@@ -29,7 +29,7 @@ pre {
   margin-left: 0.2em;
   margin-right: 0.2em;
   background-color: transparent;
-  border: 1px solid #DDD;
+  border: 1px solid #CCC;
 }
 pre > code {
   padding: 0;
@@ -38,6 +38,8 @@ pre > code {
   line-height: 1.4em;
   background-color: transparent;
 }
+pre > code::selection { border-color: transparent; }
+ 
 .content {
   line-height: 1.75em;
   margin-bottom: 50px;

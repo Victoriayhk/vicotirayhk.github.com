@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Git - 常用命令
-category : notes
+category : note
 tagline: 
 tags : [git]
 ---
@@ -149,6 +149,7 @@ git checkout -b from-1.1 	// 为当前工作目录创建分支from-1.1
 
 ## 与远程版本库交互
 三种与远程版本库通信的协议: SSH, git, HTTP/HTTPS
+
 ```
 git fetch 				// 不断获得远程版本库的改动
 git pull <库名>		  	// 从远处库取, 合并
